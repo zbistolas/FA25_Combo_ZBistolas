@@ -36,6 +36,7 @@ public class InClassLoops {
 			System.out.println("Please use a positive integers only");
 			return;
 		
+		
 		int firstTerm1 =0;
 		int secondTerm =1;
 		System.out.printf("Fibonacci sequence up to %d terms", terms);
@@ -51,12 +52,14 @@ public class InClassLoops {
 		{
 			int nextTerm = firstTerm1 + secondTerm;
 			System.out.print(" , " + nextTerm);
-			
+		
 			firstTerm1 = secondTerm;
-			secondTerm = nextTerm;
+			secondTerm = nextTerm;  
+		
 		}
 		}
-	}
+		
+		
 
 
 
