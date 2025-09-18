@@ -14,9 +14,8 @@ public class forLoop {
 			double result = (double) i / 2;// *
 			System.out.println(i + " divided by two is " + result);
 		}
-		//print numbers up to 10
-		for(int i =1; i <= 10; i++)
-		{
+		// print numbers up to 10
+		for (int i = 1; i <= 10; i++) {
 			System.out.println(i);
 		}
 	}
