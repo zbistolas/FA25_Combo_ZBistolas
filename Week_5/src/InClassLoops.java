@@ -24,10 +24,42 @@ public class InClassLoops {
 	}
 
 	private static void ForFibonacci(int terms) {
+<<<<<<< HEAD
 		if (terms < 1) {
 		    System.out.println("Please use a positive integer only");
 		    return;
 		}
+=======
+		if(terms < 1 );
+		{
+			System.out.println("Please use a positive integers only");
+			return;
+		
+		
+		int firstTerm1 =0;
+		int secondTerm =1;
+		System.out.printf("Fibonacci sequence up to %d terms", terms);
+		
+		if(terms == 1)
+		{
+			System.out.print(firstTerm1);
+			return;
+		}
+		
+		System.out.println(firstTerm1 +", " + secondTerm);
+		for(int i =2;i < terms; i++)
+		{
+			int nextTerm = firstTerm1 + secondTerm;
+			System.out.print(" , " + nextTerm);
+		
+			firstTerm1 = secondTerm;
+			secondTerm = nextTerm;  
+		
+		}
+		}
+		
+		
+>>>>>>> 37b8789b1e66e397df8cfff69ffe56db37b8e99e
 
 			int firstTerm1 = 0;
 			int secondTerm = 1;
