@@ -39,7 +39,7 @@ public class Weapon {
 
 
 	@Override
-	public static String toString() {
+	public  String toString() {
 		return "Weapon name: " + name + ", damage:" + damage + "]";
 	}
 	
