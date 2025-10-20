@@ -16,7 +16,7 @@ public class Character_Driver {
 		System.out.println("How much power?");
 		int power = input.nextInt();
 
-		System.out.println("What is thir armor class?");
+		System.out.println("What is their armor class?");
 		int ac = input.nextInt();
 
 		System.out.println();
