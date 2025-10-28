@@ -49,8 +49,9 @@ public class Recursing {
 		if (n == 0) {
 			System.out.println("Blast off");
 		} else {
-			System.out.println(n);
 			countdown(n - 1);
+			System.out.println(n);
+			
 		}
 	}
 }
