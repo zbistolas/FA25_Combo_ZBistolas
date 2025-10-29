@@ -32,12 +32,12 @@ public class War_Driver {
 			diff = c1.getRank() - c2.getRank();
 			if (diff > 0) {
 				System.out.println(" Player 1 " + p1.size());
-				for (int i = 0; i <= center.size(); i++) {
+				for (int i = 0; i < center.size(); i++) {
 					p1.addCard(center.popCard());
 				}
 			} else if (diff < 0) {
 				System.out.println(" Player 2 " + p1.size());
-				for (int i = 0; i <= center.size(); i++) {
+				for (int i = 0; i < center.size(); i++) {
 					p2.addCard(center.popCard());
 				}
 			} else {
@@ -48,14 +48,15 @@ public class War_Driver {
 						center.addCard(p2.popCard());
 					}
 				}
+				
 
 			}
 		}
 		System.out.println();
 		if (p2.isEmpty())
-			System.out.println("Player 1 wins!!!");
+			System.out.println("Player 1 wins!!!" + " " +p1.size());
 		else
-			System.out.println("Player 2 Wins!!!");
+			System.out.println("Player 2 Wins!!!" + p2.size());
 
 	}
 
