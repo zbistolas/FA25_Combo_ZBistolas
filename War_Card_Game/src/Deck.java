@@ -67,7 +67,7 @@ public class Deck {
 		return minIndex;
 	}
 
-	public Deck subdeck(int low, int high) {
+	public Deck subDeck(int low, int high) {
 		Deck sub = new Deck(high - low + 1);
 		for (int i = 0; i < sub.cards.length; i++) {
 			sub.cards[i] = this.cards[low + i];
@@ -117,8 +117,8 @@ public class Deck {
 
 		int mid = (cards.length - 1) / 2;
 
-		Deck left = subdeck(0, mid);
-		Deck right = subdeck(mid + 1, cards.length - 1);
+		Deck left = subDeck(0, mid);
+		Deck right = subDeck(mid + 1, cards.length - 1);
 
 		Deck sortedLeft = left.mergeSort();
 		Deck sortedRight = right.mergeSort();
