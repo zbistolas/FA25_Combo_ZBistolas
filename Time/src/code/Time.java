@@ -1,14 +1,13 @@
-<<<<<<< HEAD:Time/src/Time.java
+
 /**
- * @author zbist
+ * @author Zachary Bistolas
  * This class is used to make and work with times.
  * A time has hours, minutes, and seconds.
  * You can print the time, compare two times, and add them together.
  */
-=======
 package code;
 
->>>>>>> 5fb7104cc5ad3cb4729066818755c16183dca246:Time/src/code/Time.java
+
 public class Time {
 
     /** The hours part of the time. */
