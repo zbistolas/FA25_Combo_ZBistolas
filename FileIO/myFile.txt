@@ -1,2 +1,3 @@
 Hello, this is my first line of writing...
 This is appended text
+This was added outside the running app.

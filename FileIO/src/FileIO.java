@@ -21,8 +21,8 @@ public class FileIO {
 //		String str2 = input.nextLine();
 //		appendTo(fileName, str2);
 		
-//		readFile(myFile);
-		deleteFile(myFile);	
+		readFile(myFile);
+//		deleteFile(myFile);	
 		
 		
 		
